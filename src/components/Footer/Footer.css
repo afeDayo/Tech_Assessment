@@ -1,0 +1,110 @@
+.footsec {
+  padding: 0 101px;
+}
+
+.topfoot {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 233px;
+}
+
+.mainfoott {
+  text-align: start;
+}
+
+.mainfoott p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 75%;
+  margin-top: 15px;
+}
+
+.footapp {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 19px;
+}
+
+.footlinks {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 57px;
+}
+
+.feet {
+  text-align: start;
+}
+
+.feet h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  color: #7d72ff;
+  margin-bottom: 20px;
+}
+
+.feet a {
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 75%;
+}
+
+.feet p {
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 75%;
+  margin: 0;
+}
+
+.fettex {
+  width: 266px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.botfeet {
+  margin-top: 83.44px;
+}
+
+.floorfeet {
+  margin-top: 28.54px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.floorfeet p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 78%;
+}
+
+@media screen and (max-width: 1366px) {
+  .footsec {
+    padding: 0 96px;
+  }
+
+  .botfeet img {
+    width: 1175px;
+  }
+}

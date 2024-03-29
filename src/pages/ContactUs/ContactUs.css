@@ -1,0 +1,401 @@
+.contacttits {
+  padding: 0 101px;
+  margin-top: 118px;
+  margin-bottom: 235px;
+}
+
+.contacttits h1 {
+  position: relative;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.lastcir {
+  position: absolute;
+  left: 0;
+  top: -221px;
+}
+
+.contact-us {
+  position: relative;
+}
+
+.secbackgsz {
+  position: absolute;
+  left: 0;
+  top: 180px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1366px) {
+  .contacttits {
+    padding: 0 96px;
+  }
+
+  .secbackgsz {
+    width: 1349px;
+  }
+}
+
+/* =============================================== */
+
+.touchsec {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  margin-bottom: 107px;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1366px) {
+  .touchsec {
+    padding: 0 96px;
+  }
+}
+
+.touchtext {
+  text-align: start;
+}
+
+.touchtext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.touchtext > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  margin-bottom: 52px;
+  padding-right: 50px;
+}
+
+.touchme {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 38px;
+}
+
+.touchhim {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 37px;
+}
+
+.touchhim img {
+  width: 94px;
+}
+
+.touchher h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #7d72ff;
+}
+
+.touchher p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 150px;
+  margin-bottom: 10px;
+}
+
+/* ============= */
+
+.formcon {
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(234.43deg, #27244c 29.15%, #1d1b1e 63.75%);
+  border-radius: 15px;
+  text-align: start;
+  padding-top: 62px;
+  padding-left: 60px;
+  padding-bottom: 42px;
+  padding-right: 48px;
+  right: 101px;
+  top: 40px;
+}
+
+.formcon h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 75%;
+  width: 470px;
+}
+
+form {
+  padding-left: 12px;
+  margin-top: 55px;
+}
+
+form a {
+  background-color: #7d72ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 5%;
+  color: #ffffff;
+  padding: 10px 40px 10px 40px;
+  border-radius: 27px;
+}
+
+.inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 49px;
+  margin-bottom: 32px;
+  width: 470px;
+}
+
+.formin h4,
+.forminher h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 75%;
+  margin-bottom: 18px;
+}
+
+.formin h4 span,
+.forminher h4 span {
+  color: #7d72ff;
+}
+
+.formin input::placeholder,
+.forminher textarea::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+}
+
+.formin input {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #5f57a1;
+  padding: 0 10px 19px 0;
+  width: 470px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 25px;
+  letter-spacing: 3%;
+}
+
+.forminher textarea {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #5f57a1;
+  width: 470px;
+  height: 123px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 25px;
+  letter-spacing: 3%;
+}
+
+/* ========================================================== */
+
+.avalable {
+  position: relative;
+  background-color: #1c1b2d;
+  padding-top: 50px;
+  padding-bottom: 270px;
+  padding-left: 101px;
+  padding-right: 101px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 150px;
+}
+
+@media screen and (max-width: 1366px) {
+  .avalable {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+
+.avlabtext {
+  text-align: start;
+  margin-bottom: 50px;
+}
+
+.slide h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.avlabtext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+}
+
+.sidepookad {
+  position: absolute;
+  right: 0;
+  bottom: 465px;
+  z-index: 4;
+}
+
+.amueba {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+/* ===================== */
+
+.purpsecv {
+  margin-bottom: 158px;
+  position: absolute;
+  left: 0;
+  width: 1438px;
+  bottom: -200px;
+}
+
+.purpkepv {
+  position: relative;
+  margin: 0 96px;
+  background-color: #7d72ff;
+  padding: 62px 0;
+  border-radius: 20px;
+}
+
+.litspitv {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  z-index: 1;
+}
+
+.subemiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 62px;
+}
+
+.subemiv h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  width: 541px;
+  text-align: start;
+  margin-left: 156px;
+}
+
+.eiminpv {
+  position: relative;
+}
+
+.eiminpv input {
+  padding: 16px 150px 16px 49px;
+  border-radius: 25px;
+  border: none;
+}
+
+.eiminpv input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 5%;
+  color: #7d72ff;
+}
+
+.eiminpv a {
+  position: absolute;
+  background-color: #7d72ff;
+  text-decoration: none;
+  font-size: 16px;
+  font-size: 400;
+  line-height: 35px;
+  letter-spacing: 5%;
+  color: #ffffff;
+  padding: 6.5px 51.5px;
+  background-color: #7d72ff;
+  border: none;
+  border-radius: 25px;
+  top: 3.3px;
+  left: 220px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1366px) {
+  .purpkepv {
+    margin: 0 91px;
+  }
+
+  .purpsecv {
+    width: 1350px;
+    left: -10px;
+  }
+}
+
+/* =================CAROSEL============================== */
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  opacity: 0;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+

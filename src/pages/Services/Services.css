@@ -1,0 +1,362 @@
+.servicespage {
+  position: relative;
+}
+
+.secbackgs {
+  position: absolute;
+  left: 0;
+  top: 320px;
+  z-index: 0;
+}
+/* ============================================================== */
+.viceshead {
+  padding: 0 101px;
+  margin-top: 119px;
+  margin-bottom: 380px;
+  position: relative;
+}
+
+.spororo {
+  position: absolute;
+  left: 0;
+  top: -222px;
+}
+
+.viceshead h1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.viceshead p {
+  font-weight: 400;
+  font-weight: 18px;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  width: 576px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 1366px) {
+  .viceshead {
+    padding: 0 96px;
+  }
+
+  .secbackgs {
+    width: 1349px;
+  }
+}
+
+/* ========================================================= */
+
+.suopsec {
+  position: relative;
+  padding: 0 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 145px;
+  margin-bottom: 83px;
+}
+
+.eachsoup h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #7d72ff;
+  margin-top: 23px;
+}
+
+.eachsoup p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 78%;
+  letter-spacing: 3%;
+}
+
+@media screen and (max-width: 1366px) {
+  .suopsec {
+    padding: 0 166px;
+    gap: 135px;
+  }
+}
+/* ============================================================= */
+
+.tosec {
+  position: relative;
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 240px;
+  margin-bottom: 256.5px;
+  align-items: end;
+}
+
+.toimg {
+  position: relative;
+}
+
+.toimgone {
+  position: relative;
+}
+
+.toimgtwo {
+  position: absolute;
+  right: -125px;
+  bottom: -110px;
+}
+
+.totext {
+  text-align: start;
+}
+
+.totext h2 {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+
+.totext h2 span {
+  color: #7d72ff;
+}
+
+.totext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 1366px) {
+  .tosec {
+    padding: 0 96px;
+  }
+}
+
+/* ======================================================= */
+
+.parabankz {
+  padding: 0 101px;
+  margin-bottom: 159.5px;
+}
+
+@media screen and (max-width: 1366px) {
+  .parabankz {
+    padding: 0 96px;
+  }
+
+  .patbank {
+    width: 1213px;
+  }
+}
+
+/* =========================================================== */
+
+.homebiztextb {
+  text-align: start;
+  margin-top: 30px;
+}
+
+.homebiztextb h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.homebiztextb h2 span {
+  color: #7d72ff;
+}
+
+.homebiztextb p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 150px;
+  margin-bottom: 22px;
+}
+
+/* =================================================== */
+
+.tranzsec {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 260px;
+  align-items: end;
+  margin-bottom: 202px;
+}
+
+.tranztext {
+  text-align: start;
+}
+
+.tranztext h2 {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.tranztext p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 20px;
+  margin-bottom: 22px;
+}
+
+@media screen and (max-width: 1366px) {
+  .tranzsec {
+    padding: 0 96px;
+  }
+}
+
+/* ============================================== */
+
+.supasec {
+  position: relative;
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 233px;
+  align-items: end;
+  margin-bottom: 114px;
+}
+
+.supatext {
+  text-align: start;
+}
+
+.supatext h2 {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.supatext p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 20px;
+  margin-bottom: 22px;
+}
+
+.supaimg {
+  position: relative;
+}
+
+.supagirl {
+  position: relative;
+  z-index: 4;
+}
+
+.supapoka {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1366px) {
+  .supasec {
+    padding: 0 96px;
+  }
+}
+
+/* ====================================================== */
+
+.mpaysec {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 187px;
+  margin-bottom: 95px;
+}
+
+.mpayimg {
+  position: relative;
+}
+
+.mpayball {
+  position: relative;
+}
+
+.mpaycard {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.mpaytext {
+  text-align: start;
+}
+
+.mpaytext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.mpaytext h2 span {
+  color: #7d72ff;
+}
+
+.mpaytext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 50px;
+  margin-bottom: 62px;
+}
+
+.mpaypartner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1366px) {
+  .mpaysec {
+    padding: 0 96px;
+  }
+}
+
+/* ================================================= */

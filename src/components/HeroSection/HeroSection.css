@@ -1,0 +1,132 @@
+.herosec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 101px;
+  height: 950px;
+}
+
+.herotext {
+  margin-top: 258px;
+  text-align: start;
+}
+
+.herotext h1 {
+  font-size: 65px;
+  line-height: 70px;
+  font-weight: 600;
+  letter-spacing: 3%;
+  color: #7d72ff;
+  width: 652px;
+  margin-bottom: 30px;
+}
+
+.herotext h1 span {
+  color: #ffffff;
+}
+
+.herotext p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 3%;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 70%;
+  width: 499px;
+  margin-bottom: 40px;
+}
+
+.herobut {
+  background-color: #7d72ff;
+  padding: 15px 50px 15px 50px;
+  border-radius: 27px;
+  width: 199px;
+}
+
+.herobut a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 5%;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.heroimg {
+  position: relative;
+  margin-top: 32px;
+  z-index: 0;
+}
+
+.heroimg .outcome {
+  position: absolute;
+  right: 0;
+  top: 91px;
+  z-index: 4;
+}
+
+.heroimg .iphone {
+  position: absolute;
+  right: 90px;
+  top: 209px;
+  z-index: 3;
+}
+
+.heroimg .oval {
+  position: absolute;
+  right: 0px;
+  top: 91px;
+  z-index: 2;
+}
+
+.heroimg .spiral {
+  position: absolute;
+  right: -101px;
+  top: 32px;
+}
+
+@media screen and (max-width: 1366px) {
+  .herosec {
+    padding: 0 96px;
+    height: 900px;
+  }
+
+  .herotext {
+    margin-top: 245px;
+  }
+
+  .herotext h1 {
+    font-size: 60px;
+    line-height: 66px;
+    width: 619px;
+  }
+
+  .herotext p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 474px;
+  }
+
+  .heroimg {
+    margin-top: 30px;
+  }
+
+  .heroimg .outcome {
+    width: 291px;
+  }
+
+  .heroimg .iphone {
+    width: 386px;
+    top: 198px;
+  }
+
+  .heroimg .oval {
+    width: 503px;
+    height: 749px;
+  }
+
+  .heroimg .spiral {
+    right: -96px;
+    top: 30px;
+    width: 730px;
+  }
+}

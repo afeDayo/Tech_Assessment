@@ -1,0 +1,532 @@
+.aboutus {
+  position: relative;
+}
+
+.secbackg {
+  position: absolute;
+  left: 0;
+  top: 225px;
+}
+/* ================================================= */
+.abtits {
+  padding: 0 101px;
+  margin-top: 131px;
+  position: relative;
+  margin-bottom: 229px;
+}
+
+.abtits h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 600;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.abtits p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  width: 403px;
+  margin: 0 auto;
+}
+
+.abotpok {
+  position: absolute;
+  bottom: -248px;
+  left: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .abtits {
+    padding: 0 96px;
+  }
+
+  .secbackg {
+    width: 1349px;
+  }
+}
+
+/* =========================================================== */
+
+.crafted {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.craftext {
+  text-align: start;
+  margin-top: 48px;
+}
+
+.craftext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.craftext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 74%;
+  padding-right: 40px;
+  margin-bottom: 35px;
+}
+
+.craftserv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 72px;
+}
+
+.eachcraft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+.eacratex h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #7d72ff;
+  margin-bottom: 15px;
+}
+
+.eacratex p {
+  padding-right: 180px;
+}
+
+.craftimg {
+  position: relative;
+}
+
+.bigmanpro {
+  position: relative;
+  z-index: 4;
+}
+
+.bigmanbk {
+  position: absolute;
+  right: 25px;
+  top: 48px;
+  z-index: 2;
+}
+
+.spirok {
+  position: absolute;
+  right: 0;
+  bottom: -255px;
+}
+
+@media screen and (max-width: 1366px) {
+  .crafted {
+    padding: 0 96px;
+  }
+
+  .craftext p {
+    font-size: 16px;
+    padding-right: 70px;
+  }
+
+  .eacratex p {
+    padding-right: 170px;
+  }
+}
+
+/* ============================================================== */
+
+.missionsec {
+  padding: 0 101px;
+  margin-bottom: 148px;
+}
+
+.misstext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.misstext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  width: 820px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 117.07px;
+}
+
+@media screen and (max-width: 1366px) {
+  .missionsec {
+    padding: 0 96px;
+  }
+
+  .bankzz img {
+    width: 1250px;
+  }
+}
+
+/* ===================================================== */
+
+.commitsec {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin-bottom: 217px;
+}
+
+.commitimg {
+  position: relative;
+}
+
+.spezrez {
+  position: relative;
+}
+
+.zcard {
+  position: absolute;
+  left: -30px;
+  top: 50px;
+}
+
+.gadjet {
+  position: absolute;
+  left: 90px;
+  top: 20px;
+}
+
+.freeman {
+  position: absolute;
+  left: 235px;
+  bottom: 20px;
+}
+
+.committext {
+  text-align: start;
+}
+
+.committext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+
+.committext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  margin-bottom: 40px;
+}
+
+.commumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 45px;
+}
+
+.dobplus {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 129px;
+}
+
+.actuzer p {
+  opacity: 75%;
+  margin: 0;
+}
+
+.symbnumb {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.symbnumb h2 {
+  font-size: 60px;
+}
+
+.symbnumb p {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 3%;
+  color: #7d72ff;
+  margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .commitsec {
+    padding: 0 96px;
+  }
+}
+
+/* ===================================================== */
+
+.fastsec {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 191px;
+}
+
+.fasttext {
+  text-align: start;
+}
+
+.fasttext h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+.fasttext h2 span {
+  color: #7d72ff;
+}
+
+.fasttext p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  padding-right: 150px;
+}
+
+.fastimg {
+  position: relative;
+}
+
+.fastone {
+  position: relative;
+}
+
+.fasttwo {
+  position: absolute;
+  left: 125px;
+  bottom: -12px;
+}
+
+.fastthree {
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}
+
+.fastfour {
+  position: absolute;
+  right: 25px;
+  bottom: 170px;
+}
+
+.fastfive {
+  position: absolute;
+  right: 55px;
+  bottom: 35px;
+}
+
+@media screen and (max-width: 1366px) {
+  .fastsec {
+    padding: 0 96px;
+  }
+}
+
+/* ====================================================== */
+
+.teamsec {
+  position: relative;
+  padding: 0 101px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 181px;
+}
+
+.teamtex {
+  margin-bottom: 77px;
+}
+
+.teamtex h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.teamtex p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  width: 678px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.teammem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  z-index: 4;
+}
+
+.teamone {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  gap: 40px;
+}
+
+.teamtwo {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  gap: 40px;
+}
+
+.employ {
+  background: linear-gradient(to bottom, #292551, #1d1c1f);
+  padding: 34px 77px;
+}
+
+.employ h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #7d72ff;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
+.employ p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 78%;
+  margin-top: 22px;
+  margin-bottom: 0;
+}
+
+.mediasm {
+  width: 137px;
+  margin-top: 20px;
+}
+
+.teampoka {
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+}
+
+.profsix {
+  width: 221px;
+}
+
+@media screen and (max-width: 1366px) {
+  .teamsec {
+    padding: 0 96px;
+  }
+}
+
+/* ======================================================= */
+
+.countsec {
+  padding: 0 191px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 181px;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  opacity: 75%;
+  margin-top: 10px;
+}
+
+.countnum {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+}
+
+.countnum h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.countnum p {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 3%;
+  color: #7d72ff;
+  margin: 0;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 1366px) {
+  .countsec {
+    padding: 0 181px;
+  }
+}
