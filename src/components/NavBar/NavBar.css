@@ -30,9 +30,12 @@
   margin-left: 26px;
 }
 
-.navbutton a {
+.navbutton button {
   letter-spacing: 5%;
   line-height: 35px;
+  border: none;
+  background: none;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1366px) {

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./SignUp.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import Spinner from "../../utils/Spinner";
+import useAuth from "../../hooks/useAuth";
 
 const SignUp = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -13,7 +15,9 @@ const SignUp = () => {
     navigate("/signin");
   };
 
-  const { handleRegisterUser } = null;
+  const { handleRegisterUser, authenticating } = useAuth();
+
+  const btnText = authenticating ? <Spinner /> : "Create an account";
 
   const {
     register,
@@ -70,7 +74,7 @@ const SignUp = () => {
               </span>
             ) : null}
           </div>
-          <button>Create an account</button>
+          <button disabled={authenticating}>{btnText}</button>
         </div>
         <div className="already">
           <p className="mb-0">Already have an account?</p>

@@ -12,28 +12,34 @@ import Error from "./pages/Error/Error";
 import RootLayout from "./layout/RootLayout";
 import AuthLayout from "./layout/Auth/AuthLayout";
 import { Toaster } from "react-hot-toast";
+import PrivateRoute from "./utils/PrivateRoute";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
     <>
       <Router>
         <Toaster position="top-right" />
-        <Routes>
-          <Route element={<RootLayout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/Learn" element={<LearnMore />} />
-          </Route>
+        <AuthProvider>
+          <Routes>
+            <Route element={<RootLayout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<AboutUs />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/contact" element={<ContactUs />} />
+              <Route element={<PrivateRoute />}>
+                <Route path="/Learn" element={<LearnMore />} />
+              </Route>
+            </Route>
 
-          <Route element={<AuthLayout />}>
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/signin" element={<SignIn />} />
-          </Route>
+            <Route element={<AuthLayout />}>
+              <Route path="/signup" element={<SignUp />} />
+              <Route path="/signin" element={<SignIn />} />
+            </Route>
 
-          <Route path="*" element={<Error />} />
-        </Routes>
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </AuthProvider>
       </Router>
     </>
   );

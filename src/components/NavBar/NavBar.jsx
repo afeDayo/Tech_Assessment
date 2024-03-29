@@ -1,9 +1,20 @@
 import React from "react";
 import navlogo from "../../assets/MPAY LOGO.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./NavBar.css";
+import useAuth from "../../hooks/useAuth";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+  const { user } = useAuth();
+
+  const handleLearnMoreClick = () => {
+    if (!user) {
+      navigate("/signup", { state: { from: "/learn" } });
+    } else {
+      navigate("/learn");
+    }
+  };
   return (
     <div className="navsec">
       <nav className="navbody">
@@ -24,7 +35,7 @@ const NavBar = () => {
             CONTACT US
           </NavLink>
           <div className="navbutton">
-            <NavLink to="/learn">LEARN MORE</NavLink>
+            <button onClick={handleLearnMoreClick}>LEARN MORE</button>
           </div>
         </div>
       </nav>

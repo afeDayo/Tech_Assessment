@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./SignIn.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import Spinner from "../../utils/Spinner";
+import useAuth from "../../hooks/useAuth";
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -17,8 +19,12 @@ const SignIn = () => {
     formState: { errors },
   } = useForm();
 
+  const { handleSignInUser, authenticating } = useAuth();
+
+  const btnText = authenticating ? <Spinner /> : "Login to your account";
+
   const onSubmit = (data) => {
-    console.log(data);
+    handleSignInUser(data);
   };
 
   return (
@@ -52,7 +58,7 @@ const SignIn = () => {
               </span>
             ) : null}
           </div>
-          <button>Login to your account</button>
+          <button disabled={authenticating}>{btnText}</button>
         </div>
         <div className="dont">
           <p className="mb-0">Don't have an account?</p>

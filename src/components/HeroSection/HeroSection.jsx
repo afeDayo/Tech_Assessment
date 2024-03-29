@@ -1,13 +1,26 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import "./HeroSection.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import outcome from "../../assets/Frame 48.png";
 import iphone from "../../assets/iPhone 13 Pro Mockup Right View.png";
 import oval from "../../assets/Rectangle 55.png";
 import spiral from "../../assets/Spiral 2.png";
+import useAuth from "../../hooks/useAuth";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  const { user } = useAuth();
+
+  const handleLearnMoreClick = () => {
+    if (!user) {
+      navigate("/signup", { state: { from: "/learn" } });
+    } else {
+      navigate("/learn");
+    }
+  };
+
   useEffect(() => {
     ScrollReveal().reveal(".spiral", {
       duration: 500,
@@ -49,7 +62,7 @@ const HeroSection = () => {
           vitae elit est tellus porta malesuada ut arcu.
         </p>
         <div className="herobut">
-          <Link>LEARN MORE</Link>
+          <button onClick={handleLearnMoreClick}>LEARN MORE</button>
         </div>
       </div>
       <div className="heroimg">

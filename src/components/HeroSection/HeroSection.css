@@ -37,18 +37,21 @@
 
 .herobut {
   background-color: #7d72ff;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 30px 15px 30px;
   border-radius: 27px;
-  width: 199px;
+  width: 175px;
 }
 
-.herobut a {
+.herobut button {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 5%;
-  line-height: 35px;
+  /* letter-spacing: 5%; */
+  /* line-height: 35px; */
   color: #ffffff;
+  border: none;
+  background: none;
+  text-align: center;
 }
 
 .heroimg {
