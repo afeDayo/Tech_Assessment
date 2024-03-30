@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   //Login
-  const hamdleSignInUser = (formData) => {
+  const handleSignInUser = (formData) => {
     setAuthenticating(true);
     setTimeout(async () => {
       try {
@@ -70,7 +70,7 @@ export const AuthProvider = ({ children }) => {
     user,
     token,
     handleRegisterUser,
-    hamdleSignInUser,
+    handleSignInUser,
     authenticating,
   };
 

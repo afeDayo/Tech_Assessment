@@ -14,7 +14,9 @@ const Footer = () => {
       <footer>
         <div className="topfoot">
           <div className="mainfoott">
-            <img src={footlogo} alt="footlogo" />
+            <Link to="/">
+              <img src={footlogo} alt="footlogo" />
+            </Link>
             <p>0ne Application for Every Transaction</p>
             <div className="footapp">
               <img src={apple} alt="apple" />
@@ -26,10 +28,10 @@ const Footer = () => {
             <div className="feet">
               <h4>Other Pages</h4>
               <div>
-                <Link>Home</Link>
-                <Link>About Us</Link>
-                <Link>Contact Us</Link>
-                <Link>Services</Link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About Us</Link>
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/services">Services</Link>
               </div>
             </div>
             <div className="feet">

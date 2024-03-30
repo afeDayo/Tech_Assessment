@@ -82,7 +82,7 @@ const ContactUs = () => {
         </div>
         <div className="formcon">
           <h3>Your Details</h3>
-          <form action="">
+          <form>
             <div className="inform">
               <div className="formin">
                 <h4>
@@ -106,13 +106,7 @@ const ContactUs = () => {
                 <h4>
                   Comment/Questions <span>*</span>
                 </h4>
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Your Message..."
-                ></textarea>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
               </div>
             </div>
             <Link>SUBMIT</Link>
