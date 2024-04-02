@@ -716,8 +716,8 @@
 @media screen and (max-width: 575px) {
   .homebiz {
     padding: 0 10px;
-    height: 500px;
-    margin-bottom: 100px;
+    height: 400px;
+    margin-bottom: 150px;
   }
 
   .homebiztext {
