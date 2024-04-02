@@ -108,3 +108,235 @@
     width: 1175px;
   }
 }
+
+/* For tablet (991px) */
+@media screen and (max-width: 1280px) {
+  .footsec {
+    padding: 0 70px;
+  }
+
+  .topfoot {
+    gap: 200px;
+  }
+
+  .mainfoott p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+
+  .footlogo {
+    width: 153px;
+  }
+
+  .footapp {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footlinks {
+    gap: 100px;
+  }
+
+  .feet {
+    text-align: start;
+  }
+
+  .feet h4 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feet a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .feet p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .fettex {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+
+  .botfeet {
+    margin-top: 60px;
+  }
+
+  .botfeet img {
+    width: 843px;
+  }
+
+  .floorfeet {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .floorfeet p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footsec {
+    padding: 0 50px;
+  }
+
+  .topfoot {
+    gap: 80px;
+  }
+
+  .mainfoott p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+
+  .footlogo {
+    width: 153px;
+  }
+
+  .footapp {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footlinks {
+    gap: 60px;
+  }
+
+  .feet {
+    text-align: start;
+  }
+
+  .feet h4 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feet a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .feet p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .fettex {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+
+  .botfeet {
+    margin-top: 60px;
+  }
+
+  .botfeet img {
+    width: 743px;
+  }
+
+  .floorfeet {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .floorfeet p {
+    font-size: 11px;
+  }
+}
+
+/* For mobile devices (870px) */
+@media screen and (max-width: 870px) {
+  .footsec {
+    padding: 0 20px;
+  }
+
+  .mainfoott p {
+    font-size: 11px;
+    margin-top: 5px;
+    width: 150px;
+  }
+
+  .footapp img {
+    width: 15px;
+  }
+
+  .topfoot {
+    gap: 60px;
+  }
+
+  .footlinks {
+    gap: 40px;
+  }
+
+  .feet {
+    text-align: start;
+  }
+
+  .feet img {
+    width: 70px;
+  }
+
+  .footlinks .feet {
+    margin-top: 20px;
+  }
+
+  .footapp {
+    gap: 10px;
+  }
+
+  .botfeet {
+    margin-top: 20px;
+  }
+
+  .botfeet img {
+    width: 505px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .topfoot {
+    flex-direction: column;
+    align-items: start;
+    gap: 0px;
+  }
+
+  .footlinks {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+  }
+
+  .botfeet {
+    margin-top: 20px;
+    text-align: start;
+  }
+
+  .botfeet img {
+    width: 322px;
+  }
+
+  .floorfeet {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0px;
+  }
+
+  .floorfeet p {
+    line-height: 10px;
+  }
+}

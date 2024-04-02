@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="topfoot">
           <div className="mainfoott">
             <Link to="/">
-              <img src={footlogo} alt="footlogo" />
+              <img className="footlogo" src={footlogo} alt="footlogo" />
             </Link>
             <p>0ne Application for Every Transaction</p>
             <div className="footapp">

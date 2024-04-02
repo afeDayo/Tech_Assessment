@@ -6,13 +6,17 @@
 }
 
 .navlinks a.active {
-  color: #7d72ff; /
+  color: #7d72ff;
 }
 
 .navlinks {
   display: flex;
   gap: 34px;
   align-items: center;
+}
+
+.navbodytwo {
+  display: none;
 }
 
 .navlinks a {
@@ -59,5 +63,82 @@
 
   .navbutton a {
     line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbody {
+    display: none;
+  }
+
+  .navbodytwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: start;
+  }
+
+  .logomob {
+    width: 100px;
+  }
+
+  .navmob {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .burger {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .navlinksdrop ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: #ffffff;
+    width: 200px;
+  }
+
+  .navlinksdrop ul li {
+    padding: 10px 84px 10px 0px;
+    margin-left: 32px;
+  }
+
+  .navlinksdrop ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    color: #7d72ff;
+  }
+
+  .navbutton {
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    border-radius: 0;
+    margin-left: 32px;
+  }
+
+  .navlinksdrop {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 6;
+    display: none;
+  }
+
+  .navlinksdrop.open {
+    display: flex;
   }
 }

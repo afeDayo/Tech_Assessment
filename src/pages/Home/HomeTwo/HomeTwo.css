@@ -94,6 +94,288 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .partners {
+    margin-top: 20px;
+  }
+
+  .partners img {
+    width: 850px;
+  }
+
+  .homedig {
+    gap: 50px;
+    margin-top: 100px;
+    padding: 0 70px;
+    margin-bottom: 100px;
+  }
+
+  .homefin .ellipse {
+    position: absolute;
+    left: 0;
+    width: 360px;
+  }
+
+  .homefin .cardvv {
+    position: absolute;
+    left: -47.6px;
+    top: 122px;
+    width: 230px;
+  }
+
+  .homefin .iphonepro {
+    position: absolute;
+    left: 95px;
+    top: 40px;
+    width: 205px;
+  }
+
+  .homemanage h2 {
+    font-size: 35px;
+    margin-bottom: 17px;
+    line-height: 40px;
+  }
+
+  .homemanage p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .manageall {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .mallone,
+  .malltwo,
+  .mallthree {
+    gap: 25px;
+  }
+
+  .mallone img,
+  .malltwo img,
+  .mallthree img {
+    width: 63px;
+  }
+
+  .mallone h4,
+  .malltwo h4,
+  .mallthree h4 {
+    font-size: 20px;
+  }
+
+  .mallone p,
+  .malltwo p,
+  .mallthree p {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .partners {
+    margin-top: 20px;
+  }
+
+  .partners img {
+    width: 650px;
+  }
+
+  .homedig {
+    gap: 50px;
+    margin-top: 100px;
+    padding: 0 50px;
+    margin-bottom: 100px;
+  }
+
+  .homefin .ellipse {
+    position: absolute;
+    left: 0;
+    width: 360px;
+  }
+
+  .homefin .cardvv {
+    position: absolute;
+    left: -47.6px;
+    top: 122px;
+    width: 230px;
+  }
+
+  .homefin .iphonepro {
+    position: absolute;
+    left: 95px;
+    top: 40px;
+    width: 205px;
+  }
+
+  .homemanage h2 {
+    font-size: 35px;
+    margin-bottom: 17px;
+    line-height: 40px;
+  }
+
+  .homemanage p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .manageall {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .mallone,
+  .malltwo,
+  .mallthree {
+    gap: 25px;
+  }
+
+  .mallone img,
+  .malltwo img,
+  .mallthree img {
+    width: 63px;
+  }
+
+  .mallone h4,
+  .malltwo h4,
+  .mallthree h4 {
+    font-size: 20px;
+  }
+
+  .mallone p,
+  .malltwo p,
+  .mallthree p {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .homedig {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 80px;
+  }
+
+  .partners img {
+    width: 550px;
+  }
+
+  .homefin {
+    position: relative;
+  }
+
+  .homefin .ellipse {
+    position: relative;
+    width: 255px;
+  }
+
+  .homemanage {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .homefin .cardvv {
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    width: 164px;
+  }
+
+  .homefin .iphonepro {
+    position: absolute;
+    left: 240px;
+    top: 30px;
+    width: 146px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .partners img {
+    width: 412px;
+  }
+
+  .partners {
+    margin-top: 40px;
+  }
+
+  .homedig {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0 10px;
+    margin-top: 50px;
+  }
+
+  .homefin {
+    position: relative;
+  }
+
+  .homefin .ellipse {
+    position: relative;
+    width: 255px;
+  }
+
+  .homemanage {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .homefin .cardvv {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    width: 164px;
+  }
+
+  .homefin .iphonepro {
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    width: 146px;
+  }
+
+  .homemanage h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+
+  .homemanage p {
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .manageall {
+    margin-top: 0px;
+    gap: 0px;
+  }
+
+  .mallone,
+  .malltwo,
+  .mallthree {
+    gap: 10px;
+  }
+
+  .mallone img,
+  .malltwo img,
+  .mallthree img {
+    width: 45px;
+  }
+
+  .mallone h4,
+  .malltwo h4,
+  .mallthree h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .partners img {
+    width: 312px;
+  }
+}
+
 /* ==================================== */
 
 .homebiz {
@@ -194,6 +476,303 @@
 
   .homebiztext p {
     padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .homebiz {
+    padding: 0 70px;
+    height: 500px;
+    margin-bottom: 100px;
+  }
+
+  .homebiztext {
+    margin-top: 123px;
+  }
+
+  .homebiztext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .homebiztext p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+  }
+
+  .bizbut {
+    background-color: #7d72ff;
+    padding: 10px 30px 10px 30px;
+    width: 155px;
+  }
+
+  .bizbut a {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .homebizimg {
+    position: relative;
+  }
+
+  .homebizimg .hat {
+    position: relative;
+    width: 432px;
+  }
+
+  .homebizimg .stats {
+    position: absolute;
+    bottom: 80px;
+    right: 258px;
+    width: 217px;
+  }
+
+  .homebizimg .laptop {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 109px;
+  }
+
+  .homebizimg .hotspot {
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    width: 96px;
+  }
+
+  .homebizimg .watch {
+    position: absolute;
+    right: 25px;
+    bottom: 160px;
+    width: 77px;
+  }
+
+  .homebizimg .diamond {
+    position: absolute;
+    right: 155px;
+    bottom: 110px;
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homebiz {
+    padding: 0 50px;
+    height: 500px;
+    margin-bottom: 100px;
+  }
+
+  .homebiztext {
+    margin-top: 123px;
+  }
+
+  .homebiztext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .homebiztext p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+  }
+
+  .bizbut {
+    background-color: #7d72ff;
+    padding: 10px 30px 10px 30px;
+    width: 155px;
+  }
+
+  .bizbut a {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .homebizimg {
+    position: relative;
+  }
+
+  .homebizimg .hat {
+    position: relative;
+    width: 432px;
+  }
+
+  .homebizimg .stats {
+    position: absolute;
+    bottom: 80px;
+    right: 258px;
+    width: 217px;
+  }
+
+  .homebizimg .laptop {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 109px;
+  }
+
+  .homebizimg .hotspot {
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    width: 96px;
+  }
+
+  .homebizimg .watch {
+    position: absolute;
+    right: 25px;
+    bottom: 160px;
+    width: 77px;
+  }
+
+  .homebizimg .diamond {
+    position: absolute;
+    right: 155px;
+    bottom: 110px;
+    width: 65px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homebiz {
+    padding: 0 20px;
+    height: 500px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .homebiztext {
+    margin-top: 0px;
+    margin: 0 auto;
+    width: 550px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .homebiztext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .homebiztext p {
+    padding-right: 0px;
+  }
+
+  .bizbut {
+    margin: 0 auto;
+  }
+
+  .homebizimg {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .homebizimg .hat {
+    position: relative;
+    width: 305px;
+  }
+
+  .homebizimg .stats {
+    position: absolute;
+    bottom: -25px;
+    right: 188px;
+    width: 153px;
+  }
+
+  .homebizimg .laptop {
+    position: absolute;
+    right: 13px;
+    top: -15px;
+    width: 77px;
+  }
+
+  .homebizimg .hotspot {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 68px;
+  }
+
+  .homebizimg .watch {
+    position: absolute;
+    right: 18px;
+    bottom: 30px;
+    width: 54px;
+  }
+
+  .homebizimg .diamond {
+    position: absolute;
+    right: 110px;
+    bottom: -10px;
+    width: 46px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .homebiz {
+    padding: 0 10px;
+    height: 500px;
+    margin-bottom: 100px;
+  }
+
+  .homebiztext {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+
+  .homebiztext h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .homebiztext p {
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .homebizimg .hat {
+    position: relative;
+    width: 255px;
+  }
+
+  .homebizimg .stats {
+    position: absolute;
+    bottom: -25px;
+    right: 150px;
+    width: 128px;
+  }
+
+  .homebizimg .laptop {
+    position: absolute;
+    right: 10px;
+    top: -15px;
+    width: 64px;
+  }
+
+  .homebizimg .hotspot {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    width: 57px;
+  }
+
+  .homebizimg .watch {
+    position: absolute;
+    right: 13px;
+    bottom: 30px;
+    width: 45px;
+  }
+
+  .homebizimg .diamond {
+    position: absolute;
+    right: 90px;
+    bottom: -5px;
+    width: 38px;
   }
 }
 
@@ -324,6 +903,189 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .pokadots {
+    top: -227px;
+    width: 300px;
+  }
+
+  .spiralll {
+    bottom: -153px;
+    width: 290px;
+  }
+
+  .servhead h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 13px;
+  }
+
+  .servhead p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 481px;
+    margin-bottom: 60px;
+  }
+
+  .servcardcon {
+    padding: 0 70px;
+    margin-bottom: 189px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .servrowone,
+  .servrowtwo {
+    gap: 10px;
+  }
+
+  .serv {
+    padding: 14px 22px;
+    width: 272px;
+    height: 190px;
+  }
+
+  .serv h4 {
+    font-size: 16px;
+    line-height: 0px;
+  }
+
+  .serv p {
+    font-size: 12px;
+    line-height: 17px;
+    width: 222px;
+  }
+
+  .lmarr {
+    gap: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 17px;
+  }
+
+  .ordvec .serv img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pokadots {
+    top: -227px;
+    width: 300px;
+  }
+
+  .spiralll {
+    bottom: -153px;
+    width: 290px;
+  }
+
+  .servhead h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 13px;
+  }
+
+  .servhead p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 481px;
+    margin-bottom: 60px;
+  }
+
+  .servcardcon {
+    padding: 0 50px;
+    margin-bottom: 189px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .servrowone,
+  .servrowtwo {
+    gap: 10px;
+  }
+
+  .serv {
+    padding: 14px 22px;
+    width: 272px;
+    height: 190px;
+  }
+
+  .serv h4 {
+    font-size: 16px;
+    line-height: 0px;
+  }
+
+  .serv p {
+    font-size: 12px;
+    line-height: 17px;
+    width: 222px;
+  }
+
+  .lmarr {
+    gap: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 17px;
+  }
+
+  .ordvec .serv img {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .servrowone,
+  .servrowtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pokadots {
+    top: -100px;
+    width: 214px;
+  }
+
+  .spiralll {
+    bottom: -50px;
+    width: 205px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .pokadots {
+    top: 0px;
+    width: 116px;
+  }
+
+  .spiralll {
+    bottom: 0px;
+    width: 111px;
+  }
+
+  .servhead h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .servhead p {
+    font-size: 11px;
+    line-height: 15px;
+    width: 300px;
+    margin: 20px auto;
+  }
+
+  .servrowone,
+  .servrowtwo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .servcardcon {
+    padding: 0 10px;
+    margin-bottom: 80px;
+  }
+}
+
 /* ======================================================== */
 
 .quotesec {
@@ -396,6 +1158,188 @@
     width: 1167px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .quotesec {
+    position: relative;
+    padding: 0 70px;
+    margin-bottom: 150px;
+  }
+
+  .quote {
+    position: absolute;
+    left: 50%;
+    width: 70.72px;
+  }
+
+  .recone {
+    width: 837px;
+  }
+
+  .qouttext {
+    top: 30%;
+    left: 25%;
+  }
+
+  .qouttext p {
+    font-size: 18px;
+    line-height: 25px;
+    width: 514px;
+  }
+
+  .alisha {
+    gap: 10px;
+    left: 32%;
+    align-items: center;
+  }
+
+  .alisha img {
+    width: 63px;
+  }
+
+  .alisgprof h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .alisgprof p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .quotesec {
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 150px;
+  }
+
+  .quote {
+    position: absolute;
+    left: 50%;
+    width: 70.72px;
+  }
+
+  .recone {
+    width: 837px;
+  }
+
+  .qouttext {
+    top: 30%;
+    left: 20%;
+  }
+
+  .qouttext p {
+    font-size: 18px;
+    line-height: 25px;
+    width: 514px;
+  }
+
+  .alisha {
+    gap: 10px;
+    left: 32%;
+    align-items: center;
+  }
+
+  .alisha img {
+    width: 63px;
+  }
+
+  .alisgprof h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .alisgprof p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .quotesec {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .quote {
+    width: 50px;
+  }
+
+  .recone {
+    width: 590px;
+  }
+
+  .qouttext {
+    left: 10%;
+  }
+
+  .qouttext p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  .alisha img {
+    width: 45px;
+  }
+
+  .alisgprof h4 {
+    font-size: 15px;
+  }
+
+  .alisgprof p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .quotesec {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
+  .quote {
+    width: 27px;
+  }
+
+  .recone {
+    width: 300px;
+    height: 150px;
+  }
+
+  .qouttext {
+    left: 10%;
+    top: 22%;
+  }
+
+  .qouttext p {
+    font-size: 11px;
+    line-height: 17px;
+    width: 250px;
+  }
+
+  .alisgprof p {
+    width: 100px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .alisgprof h4 {
+    width: 100px;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .alisha img {
+    width: 30px;
+  }
+}
 /* ===================================================== */
 
 .finsecc {
@@ -448,6 +1392,125 @@
 @media screen and (max-width: 1366px) {
   .finsecc {
     padding: 0 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .finsecc {
+    padding: 0 70px;
+    margin-bottom: 126px;
+  }
+
+  .fintext {
+    text-align: start;
+    width: 542px;
+  }
+
+  .fintext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .fintext p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+  }
+
+  .fintext h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .poookdot {
+    width: 412px;
+  }
+
+  .fintext img {
+    width: 303px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .finsecc {
+    padding: 0 50px;
+    margin-bottom: 126px;
+  }
+
+  .fintext {
+    text-align: start;
+    width: 542px;
+  }
+
+  .fintext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .fintext p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+  }
+
+  .fintext h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .poookdot {
+    width: 412px;
+  }
+
+  .fintext img {
+    width: 303px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .finsecc {
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 300px;
+  }
+
+  .fintext {
+    text-align: start;
+    width: 300px;
+  }
+
+  .fintext h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .fintext p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .fintext h5 {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .poookdot {
+    width: 120px;
+    top: 0;
+    right: -25px;
+  }
+
+  .fintext img {
+    width: 200px;
   }
 }
 
@@ -513,7 +1576,7 @@
   background-color: #7d72ff;
   text-decoration: none;
   font-size: 16px;
-  font-size: 400;
+  font-weight: 400;
   line-height: 35px;
   letter-spacing: 5%;
   color: #ffffff;
@@ -529,5 +1592,132 @@
 @media screen and (max-width: 1366px) {
   .purpkep {
     margin: 0 91px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .purpsec {
+    margin-bottom: 100px;
+  }
+
+  .purpkep {
+    margin: 0 70px;
+    padding: 42px 0;
+  }
+
+  .litspit {
+    top: 0px;
+    width: 190px;
+  }
+
+  .subemi {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .subemi h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 360px;
+    margin-left: 100px;
+  }
+
+  .eiminp input {
+    padding: 10px 100px 10px 33px;
+  }
+
+  .eiminp input::placeholder {
+    font-size: 14px;
+  }
+
+  .eiminp a {
+    position: absolute;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 6.5px 35px;
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .purpsec {
+    margin-bottom: 100px;
+  }
+
+  .purpkep {
+    margin: 0 50px;
+    padding: 42px 0;
+  }
+
+  .litspit {
+    top: 0px;
+    width: 190px;
+  }
+
+  .subemi {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .subemi h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 360px;
+    margin-left: 100px;
+  }
+
+  .eiminp input {
+    padding: 10px 100px 10px 33px;
+  }
+
+  .eiminp input::placeholder {
+    font-size: 14px;
+  }
+
+  .eiminp a {
+    position: absolute;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 6.5px 35px;
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .subemi {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .subemi h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .purpkep {
+    margin: 0 50px;
+    padding: 42px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .purpsec {
+    margin-bottom: 80px;
+  }
+
+  .purpkep {
+    margin: 0 10px;
+    padding: 42px 0;
+  }
+
+  .subemi h2 {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    width: 300px;
   }
 }
