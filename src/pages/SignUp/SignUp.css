@@ -91,12 +91,50 @@
   cursor: pointer;
 }
 
-.cant span {
-  position: absolute;
-  font-size: 13px;
-  font-weight: 300;
-  color: #fc4747;
-  top: 1;
-  right: 39%;
-  margin-top: 5px;
+@media screen and (max-width: 575px) {
+  .signup {
+    margin-top: 22px;
+  }
+
+  .up-form {
+    max-width: 320px;
+  }
+
+  .up-title {
+    font-size: 25px;
+  }
+
+  .up-input {
+    margin-top: 32px;
+    gap: 18px;
+  }
+
+  .up-input input {
+    padding: 0 12px 15px 12px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .up-input input::placeholder {
+    font-size: 11px;
+  }
+
+  .up-input button {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .already {
+    margin-top: 18px;
+    gap: 6px;
+  }
+
+  .already p {
+    font-size: 11px;
+  }
+
+  .already .ggg {
+    font-size: 11px;
+    font-weight: 600;
+  }
 }

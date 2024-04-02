@@ -1,5 +1,4 @@
 .authpage {
-  width: 1440px;
   height: 700px;
   background-color: #151518;
   display: flex;
@@ -11,8 +10,8 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 575px) {
   .authpage {
-    width: 1349px;
+    height: 641px;
   }
 }

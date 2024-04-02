@@ -39,11 +39,6 @@ const SignIn = () => {
               className={errors.email ? "error" : ""}
               {...register("email", { required: true })}
             />
-            {errors.email && errors.email.type === "required" ? (
-              <span className=" position-absolute end-0 pt-3 pe-4">
-                Can't be empty
-              </span>
-            ) : null}
           </div>
           <div className="position-relative">
             <input
@@ -52,11 +47,6 @@ const SignIn = () => {
               className={errors.password ? "error" : ""}
               {...register("password", { required: true })}
             />
-            {errors.password && errors.password.type === "required" ? (
-              <span className="position-absolute end-0 pt-3 pe-4">
-                Can't be empty
-              </span>
-            ) : null}
           </div>
           <button disabled={authenticating}>{btnText}</button>
         </div>

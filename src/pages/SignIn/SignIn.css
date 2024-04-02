@@ -91,12 +91,50 @@
   cursor: pointer;
 }
 
-.cant span {
-  position: absolute;
-  font-size: 13px;
-  font-weight: 300;
-  color: #fc4747;
-  top: 1;
-  right: 39%;
-  margin-top: 5px;
+@media screen and (max-width: 575px) {
+  .signin {
+    margin-top: 22px;
+  }
+
+  .in-form {
+    max-width: 320px;
+  }
+
+  .in-title {
+    font-size: 25px;
+  }
+
+  .in-input {
+    margin-top: 32px;
+    gap: 18px;
+  }
+
+  .in-input input {
+    padding: 0 12px 15px 12px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .in-input input::placeholder {
+    font-size: 11px;
+  }
+
+  .in-input button {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .dont {
+    margin-top: 18px;
+    gap: 6px;
+  }
+
+  .dont p {
+    font-size: 11px;
+  }
+
+  .dont .ccc {
+    font-size: 11px;
+    font-weight: 600;
+  }
 }
