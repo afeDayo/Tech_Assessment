@@ -281,6 +281,10 @@
     width: 160px;
   }
 
+  .herobut button {
+    font-size: 13px;
+  }
+
   .heroimg {
     margin: 0px auto;
     position: relative;
