@@ -735,6 +735,15 @@
     line-height: 17px;
   }
 
+  .bizbut {
+    padding: 10px 10px;
+    width: 160px;
+  }
+
+  .bizbut a {
+    font-size: 13px;
+  }
+
   .homebizimg .hat {
     position: relative;
     width: 255px;
