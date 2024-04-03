@@ -51,6 +51,75 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .secbackg {
+    display: none;
+  }
+  /* ================================================= */
+  .abtits {
+    padding: 0 70px;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 180px;
+  }
+
+  .abtits h1 {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 16px;
+  }
+
+  .abtits p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 322px;
+  }
+
+  .abotpok {
+    top: -210px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .abtits {
+    padding: 0 50px;
+    margin-top: 89px;
+    margin-bottom: 150px;
+  }
+
+  .abtits h1 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .abtits {
+    padding: 0 10px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+  }
+
+  .abtits h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 6px;
+  }
+
+  .abtits p {
+    font-size: 11px;
+    line-height: 17px;
+    width: 250px;
+  }
+
+  .abotpok {
+    top: -95px;
+    width: 240px;
+  }
+}
+
 /* =========================================================== */
 
 .crafted {
@@ -150,6 +219,242 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .crafted {
+    padding: 0 70px;
+    margin-bottom: 120px;
+  }
+
+  .craftext {
+    margin-top: 32px;
+  }
+
+  .craftext h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .craftext p {
+    font-size: 15px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+  }
+
+  .craftserv {
+    gap: 20px;
+  }
+
+  .eachcraft {
+    gap: 25px;
+  }
+
+  .eachcraft img {
+    width: 64px;
+  }
+
+  .eacratex h4 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .eacratex p {
+    padding-right: 60px;
+  }
+
+  .bigmanpro {
+    width: 320px;
+  }
+
+  .bigmanbk {
+    right: 17px;
+    top: 32.6px;
+    width: 326px;
+  }
+
+  .spirok {
+    bottom: -100px;
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .crafted {
+    padding: 0 50px;
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+    gap: 100px;
+  }
+
+  .craftext {
+    margin-top: 30px;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .craftext h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .craftext p {
+    font-size: 15px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+  }
+
+  .craftserv {
+    gap: 20px;
+  }
+
+  .eachcraft {
+    gap: 25px;
+  }
+
+  .eachcraft img {
+    width: 64px;
+  }
+
+  .eacratex h4 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .eacratex p {
+    padding-right: 260px;
+  }
+
+  .bigmanpro {
+    width: 320px;
+  }
+
+  .bigmanbk {
+    right: 207px;
+    top: 32.6px;
+    width: 326px;
+  }
+
+  .spirok {
+    bottom: 0px;
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .crafted {
+    padding: 0 40px;
+    margin-bottom: 80px;
+    gap: 40px;
+  }
+
+  .craftext {
+    margin-top: 20px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .craftext p {
+    font-size: 13px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .craftserv {
+    gap: 15px;
+  }
+
+  .eachcraft {
+    gap: 20px;
+  }
+
+  .eachcraft img {
+    width: 40px;
+  }
+
+  .eacratex h4 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+
+  .eacratex p {
+    padding-right: 160px;
+  }
+
+  .bigmanbk {
+    right: 50px;
+  }
+
+  .spirok {
+    bottom: 0px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .crafted {
+    padding: 0 10px;
+    margin-bottom: 60px;
+    gap: 50px;
+  }
+
+  .craftext {
+    margin-top: 12px;
+    width: 300px;
+  }
+
+  .craftext h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .craftext p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    line-height: 17px;
+  }
+
+  .craftserv {
+    gap: 15px;
+  }
+
+  .eachcraft {
+    gap: 10px;
+  }
+
+  .eachcraft img {
+    width: 25px;
+  }
+
+  .eacratex h4 {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  .eacratex p {
+    padding-right: 0px;
+    line-height: 17px;
+  }
+
+  .bigmanpro {
+    width: 172px;
+  }
+
+  .bigmanbk {
+    right: 60px;
+    width: 175px;
+    top: 15px;
+  }
+
+  .spirok {
+    width: 100px;
+  }
+}
+
 /* ============================================================== */
 
 .missionsec {
@@ -186,6 +491,93 @@
 
   .bankzz img {
     width: 1250px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .missionsec {
+    padding: 0 70px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .misstext h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+  .misstext p {
+    font-size: 15px;
+    width: 700px;
+    padding: 0px;
+    margin-bottom: 93px;
+  }
+
+  .bankzz {
+    margin-top: 20px;
+  }
+
+  .bankzz img {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .missionsec {
+    padding: 0 50px;
+    margin-bottom: 80px;
+  }
+
+  .misstext h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+  .misstext p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 600px;
+    padding: 0px;
+    margin-bottom: 80px;
+  }
+
+  .bankzz {
+    margin-top: 20px;
+  }
+
+  .bankzz img {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .missionsec {
+    padding: 0 10px;
+    margin-bottom: 60px;
+  }
+
+  .misstext h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .misstext p {
+    font-size: 11px;
+    line-height: 20px;
+    width: 300px;
+    padding: 0px;
+    margin-bottom: 60px;
+  }
+
+  .bankzz img {
+    width: 312px;
+  }
+
+  .bankzz {
+    margin-top: 40px;
   }
 }
 
@@ -291,6 +683,192 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .commitsec {
+    padding: 0 70px;
+    gap: 70px;
+    margin-bottom: 145px;
+  }
+
+  .spezrez {
+    position: relative;
+    width: 330px;
+  }
+
+  .zcard {
+    position: absolute;
+    left: 20px;
+    width: 235px;
+  }
+
+  .gadjet {
+    position: absolute;
+    width: 220px;
+  }
+
+  .freeman {
+    position: absolute;
+    left: 188px;
+    bottom: 100px;
+    width: 245px;
+  }
+
+  .committext h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .committext p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .commumb {
+    gap: 10px;
+  }
+
+  .dobplus {
+    gap: 85px;
+    width: 270px;
+  }
+
+  .symbnumb h2 {
+    font-size: 40px;
+  }
+
+  .symbnumb p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .commitsec {
+    padding: 0 50px;
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .committext {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .zcard {
+    position: absolute;
+    left: 25%;
+  }
+
+  .gadjet {
+    position: absolute;
+    left: 35%;
+  }
+
+  .freeman {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .committext {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .committext p {
+    font-size: 11px;
+  }
+
+  .zcard {
+    position: absolute;
+    left: 10%;
+  }
+
+  .gadjet {
+    position: absolute;
+    left: 25%;
+  }
+
+  .freeman {
+    position: absolute;
+    left: 45%;
+  }
+
+  .symbnumb p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .commitsec {
+    padding: 0 10px;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .spezrez {
+    width: 150px;
+  }
+
+  .zcard {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 100px;
+  }
+
+  .gadjet {
+    position: absolute;
+    width: 100px;
+    left: 110px;
+    top: 10px;
+  }
+
+  .freeman {
+    position: absolute;
+    left: 158px;
+    bottom: 0px;
+    width: 115px;
+  }
+
+  .committext {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .committext h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .committext p {
+    font-size: 11px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+
+  .commumb {
+    gap: 0px;
+  }
+
+  .dobplus {
+    gap: 65px;
+    width: 270px;
+    margin-bottom: 10px;
+  }
+
+  .symbnumb h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .symbnumb p {
+    font-size: 11px;
+    margin: 0;
+  }
+}
+
 /* ===================================================== */
 
 .fastsec {
@@ -362,6 +940,139 @@
 @media screen and (max-width: 1366px) {
   .fastsec {
     padding: 0 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .fastsec {
+    padding: 0 70px;
+    margin-bottom: 130px;
+  }
+
+  .fasttext h2 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-right: 15px;
+  }
+
+  .fasttext p {
+    font-size: 15px;
+    padding-right: 80px;
+  }
+
+  .fastone {
+    width: 370px;
+  }
+
+  .fasttwo {
+    bottom: 0px;
+    width: 83px;
+  }
+
+  .fastthree {
+    right: 35px;
+    top: -20px;
+    width: 111px;
+  }
+
+  .fastfour {
+    right: 45px;
+    bottom: 120px;
+    width: 102px;
+  }
+
+  .fastfive {
+    right: 60px;
+    bottom: 30px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .fastsec {
+    padding: 0 50px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .fasttext {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .fasttext p {
+    padding-right: 0px;
+  }
+
+  .fasttwo {
+    bottom: 0px;
+    left: 33%;
+  }
+
+  .fastthree {
+    right: 18%;
+    top: -20px;
+  }
+
+  .fastfour {
+    right: 19%;
+    bottom: 120px;
+  }
+
+  .fastfive {
+    right: 22%;
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .fastsec {
+    padding: 0 10px;
+    margin-bottom: 60px;
+  }
+
+  .fasttext {
+    width: 300px;
+  }
+
+  .fasttext h2 {
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 0px;
+  }
+
+  .fasttext p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-right: 0px;
+  }
+
+  .fastone {
+    width: 250px;
+  }
+
+  .fasttwo {
+    bottom: 0px;
+    width: 65px;
+    left: 25%;
+  }
+
+  .fastthree {
+    right: 12%;
+    top: -10px;
+    width: 60px;
+  }
+
+  .fastfour {
+    right: 14%;
+    bottom: 85px;
+    width: 56px;
+  }
+
+  .fastfive {
+    right: 18%;
+    bottom: 25px;
+    width: 53px;
   }
 }
 
@@ -473,6 +1184,175 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .teamsec {
+    padding: 0 70px;
+    margin-bottom: 140px;
+  }
+
+  .teamtex {
+    margin-bottom: 50px;
+  }
+
+  .teamtex h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .teamtex p {
+    font-size: 15px;
+  }
+
+  .teammem {
+    gap: 25px;
+  }
+
+  .teamone {
+    gap: 25px;
+  }
+
+  .teamtwo {
+    gap: 25px;
+  }
+
+  .employ {
+    padding: 23px 52px;
+  }
+
+  .picpep {
+    width: 150px;
+  }
+
+  .employ h4 {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  .employ p {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .mediasm {
+    width: 93px;
+    margin-top: 13px;
+  }
+
+  .teampoka {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .teamsec {
+    margin-bottom: 80px;
+  }
+
+  .teamtex {
+    margin-bottom: 36px;
+  }
+
+  .teamtex h2 {
+    margin-bottom: 10px;
+  }
+
+  .teamtex p {
+    width: 478px;
+    padding: 0px;
+  }
+
+  .teammem {
+    gap: 18px;
+  }
+
+  .teamone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .teamtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .teamsec {
+    padding: 0 10px;
+    margin-bottom: 35px;
+  }
+
+  .teamtex {
+    margin-bottom: 20px;
+  }
+
+  .teamtex h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+
+  .teamtex p {
+    font-size: 11px;
+    line-height: 17px;
+    width: 300px;
+  }
+
+  .teammem {
+    gap: 10px;
+  }
+
+  .teamone {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .teamtwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .employ {
+    padding: 8px 20px;
+  }
+
+  .employ h4 {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 5px;
+  }
+
+  .employ p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-top: 5px;
+  }
+
+  .mediasm {
+    width: 77px;
+    margin-top: 5px;
+  }
+
+  .teampoka {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    width: 100px;
+  }
+
+  .picpep {
+    width: 200px;
+  }
+}
+
 /* ======================================================= */
 
 .countsec {
@@ -528,5 +1408,70 @@
 @media screen and (max-width: 1366px) {
   .countsec {
     padding: 0 181px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .countsec {
+    padding: 0 130px;
+    margin-bottom: 120px;
+  }
+
+  .count > p {
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 7px;
+  }
+
+  .countnum {
+    gap: 3px;
+  }
+
+  .countnum h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .countnum p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .countsec {
+    padding: 0 90px;
+    margin-bottom: 86px;
+  }
+
+  .count {
+    width: 70px;
+  }
+
+  .count > p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-top: 0px;
+  }
+
+  .countnum {
+    gap: 0px;
+  }
+
+  .countnum h2 {
+    font-size: 20px;
+    line-height: 17px;
+  }
+
+  .countnum p {
+    font-size: 11px;
+    line-height: 0px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .countsec {
+    padding: 0 10px;
+    margin-bottom: 60px;
   }
 }

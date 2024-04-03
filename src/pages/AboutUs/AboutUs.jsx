@@ -232,14 +232,14 @@ const AboutUs = () => {
                     <h2>100</h2>
                     <p>+</p>
                   </div>
-                  <p>Active user</p>
+                  <p className="m-0">Active user</p>
                 </div>
                 <div className="actuzer">
                   <div className="symbnumb">
                     <h2>400</h2>
                     <p>+</p>
                   </div>
-                  <p>App Download</p>
+                  <p className="m-0">App Download</p>
                 </div>
               </div>
               <div className="dobplus">
@@ -248,14 +248,14 @@ const AboutUs = () => {
                     <h2>100</h2>
                     <p>%</p>
                   </div>
-                  <p>Satisfied Users</p>
+                  <p className="m-0">Satisfied Users</p>
                 </div>
                 <div className="actuzer">
                   <div className="symbnumb">
                     <h2>200</h2>
                     <p>+</p>
                   </div>
-                  <p>Partner Joined</p>
+                  <p className="m-0">Partner Joined</p>
                 </div>
               </div>
             </div>
@@ -301,19 +301,19 @@ const AboutUs = () => {
           <div className="teammem">
             <div className="teamone">
               <div className="employ">
-                <img src={profone} alt="client" />
+                <img className="picpep" src={profone} alt="client" />
                 <h4>Tyronne Michael</h4>
                 <p>CEO/Founder</p>
                 <img className="mediasm" src={media} alt="socialm" />
               </div>
               <div className="employ">
-                <img src={proftwo} alt="client" />
+                <img className="picpep" src={proftwo} alt="client" />
                 <h4>Akpeki Tega</h4>
                 <p>Operation Manager</p>
                 <img className="mediasm" src={media} alt="socialm" />
               </div>
               <div className="employ">
-                <img src={profthree} alt="client" />
+                <img className="picpep" src={profthree} alt="client" />
                 <h4>Alisha Gazel</h4>
                 <p>Sales and Marketing</p>
                 <img className="mediasm" src={media} alt="socialm" />
@@ -321,19 +321,19 @@ const AboutUs = () => {
             </div>
             <div className="teamtwo">
               <div className="employ">
-                <img src={proffour} alt="client" />
+                <img className="picpep" src={proffour} alt="client" />
                 <h4>Aishat Chinedu</h4>
                 <p>Lead Blockchain Developer</p>
                 <img className="mediasm" src={media} alt="socialm" />
               </div>
               <div className="employ">
-                <img src={proffive} alt="client" />
+                <img className="picpep" src={proffive} alt="client" />
                 <h4>Babatunde Victor</h4>
                 <p>IT Support Executive</p>
                 <img className="mediasm" src={media} alt="socialm" />
               </div>
               <div className="employ">
-                <img className="profsix" src={profsix} alt="client" />
+                <img className="profsix picpep" src={profsix} alt="client" />
                 <h4>Grace Afe</h4>
                 <p>HR Manager</p>
                 <img className="mediasm" src={media} alt="socialm" />
