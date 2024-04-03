@@ -41,6 +41,64 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .contacttits {
+    padding: 0 70px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+
+  .contacttits h1 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .lastcir {
+    top: -185px;
+    width: 300px;
+  }
+
+  .secbackgsz {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contacttits {
+    padding: 0 50px;
+    margin-top: 55px;
+    margin-bottom: 112px;
+  }
+
+  .contacttits h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .lastcir {
+    top: -115px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contacttits {
+    padding: 0 10px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+  }
+
+  .contacttits h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .lastcir {
+    top: -90px;
+    width: 150px;
+  }
+}
+
 /* =============================================== */
 
 .touchsec {
@@ -51,12 +109,6 @@
   margin-bottom: 107px;
   position: relative;
   z-index: 2;
-}
-
-@media screen and (max-width: 1366px) {
-  .touchsec {
-    padding: 0 96px;
-  }
 }
 
 .touchtext {
@@ -118,6 +170,12 @@
   opacity: 78%;
   padding-right: 150px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1366px) {
+  .touchsec {
+    padding: 0 96px;
+  }
 }
 
 /* ============= */
@@ -223,6 +281,240 @@ form a {
   letter-spacing: 3%;
 }
 
+@media screen and (max-width: 1280px) {
+  .touchsec {
+    padding: 0 70px;
+    margin-bottom: 72px;
+  }
+
+  .touchtext h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 17px;
+  }
+
+  .touchtext > p {
+    font-size: 16px;
+    margin-bottom: 35px;
+    padding-right: 30px;
+  }
+
+  .touchme {
+    gap: 25px;
+  }
+
+  .touchhim {
+    gap: 24px;
+  }
+
+  .touchhim img {
+    width: 65px;
+  }
+
+  .touchher h4 {
+    font-size: 18px;
+  }
+
+  .touchher p {
+    font-size: 15px;
+    padding-right: 100px;
+    margin-bottom: 0px;
+  }
+
+  /* ============= */
+
+  .formcon {
+    padding-top: 42px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 33px;
+    right: 70px;
+    top: 30px;
+  }
+
+  .formcon h3 {
+    font-size: 20px;
+    width: 320px;
+  }
+
+  form {
+    padding-left: 8px;
+    margin-top: 35px;
+  }
+
+  form a {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 7px 30px 7px 30px;
+    border-radius: 27px;
+  }
+
+  .inform {
+    gap: 33px;
+    margin-bottom: 22px;
+    width: 320px;
+  }
+
+  .formin h4,
+  .forminher h4 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .formin input::placeholder,
+  .forminher textarea::placeholder {
+    font-size: 15px;
+  }
+
+  .formin input {
+    padding: 0 7px 13px 0;
+    width: 320px;
+    font-size: 15px;
+  }
+
+  .forminher textarea {
+    width: 320px;
+    height: 84px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .touchsec {
+    padding: 0 50px;
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .touchtext {
+    text-align: start;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  /* ============= */
+
+  .formcon {
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .touchsec {
+    padding: 0 10px;
+    margin-bottom: 33px;
+  }
+
+  .touchtext {
+    width: 300px;
+  }
+
+  .touchtext h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .touchtext > p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+  }
+
+  .touchme {
+    gap: 12px;
+  }
+
+  .touchhim {
+    gap: 11px;
+  }
+
+  .touchhim img {
+    width: 30px;
+  }
+
+  .touchher h4 {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .touchher p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  /* ============= */
+
+  .formcon {
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    right: 31px;
+    top: 12px;
+    width: 300px;
+    margin-left: 45px;
+  }
+
+  .formcon h3 {
+    font-size: 20px;
+    line-height: 25px;
+    width: 250px;
+  }
+
+  form {
+    padding-left: 5px;
+    margin-top: 17px;
+  }
+
+  form a {
+    font-size: 11px;
+    line-height: 17px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+  }
+
+  .inform {
+    gap: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+
+  .formin h4,
+  .forminher h4 {
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 6px;
+  }
+
+  .formin input::placeholder,
+  .forminher textarea::placeholder {
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .formin input {
+    padding: 0 4px 8px 0;
+    width: 250px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .forminher textarea {
+    width: 250px;
+    height: 65px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+}
+
 /* ========================================================== */
 
 .avalable {
@@ -237,13 +529,6 @@ form a {
   grid-template-columns: 1fr 1fr;
   align-items: end;
   gap: 150px;
-}
-
-@media screen and (max-width: 1366px) {
-  .avalable {
-    padding-left: 96px;
-    padding-right: 96px;
-  }
 }
 
 .avlabtext {
@@ -280,6 +565,106 @@ form a {
   position: absolute;
   top: 50px;
   left: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .avalable {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .avalable {
+    padding-top: 35px;
+    padding-bottom: 185px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 102px;
+    gap: 102px;
+  }
+
+  .avlabtext {
+    margin-bottom: 35px;
+  }
+
+  .slide h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .avlabtext p {
+    font-size: 15px;
+  }
+
+  .sidepookad {
+    position: absolute;
+    right: 0;
+    bottom: 465px;
+    z-index: 4;
+    width: 210px;
+  }
+
+  .amueba {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .avalable {
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .avalaimg img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .avalable {
+    padding-top: 15px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 45px;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .avalaimg img {
+    width: 300px;
+  }
+
+  .avlabtext {
+    text-align: start;
+    margin-bottom: 15px;
+  }
+
+  .slide h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+  }
+
+  .avlabtext p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 180px;
+  }
+
+  .sidepookad {
+    width: 100px;
+  }
+
+  .amueba {
+    width: 50px;
+  }
 }
 
 /* ===================== */
@@ -372,12 +757,149 @@ form a {
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .purpsecv {
+    margin-bottom: 100px;
+    width: 1100px;
+  }
+
+  .purpkepv {
+    margin: 0 70px;
+    padding: 42px 0;
+  }
+
+  .litspitv {
+    top: 0px;
+    width: 190px;
+  }
+
+  .subemiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .subemiv h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 360px;
+    margin-left: 100px;
+  }
+
+  .eiminpv input {
+    padding: 10px 100px 10px 33px;
+  }
+
+  .eiminpv input::placeholder {
+    font-size: 14px;
+  }
+
+  .eiminpv a {
+    position: absolute;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 6.5px 35px;
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .purpsecv {
+    margin-bottom: 100px;
+    width: 950px;
+  }
+
+  .purpkepv {
+    margin: 0 50px;
+    padding: 42px 0;
+  }
+
+  .litspitv {
+    top: 0px;
+    width: 190px;
+  }
+
+  .subemiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .subemiv h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 360px;
+    margin-left: 100px;
+  }
+
+  .eiminpv input {
+    padding: 10px 100px 10px 33px;
+  }
+
+  .eiminpv input::placeholder {
+    font-size: 14px;
+  }
+
+  .eiminpv a {
+    position: absolute;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 6.5px 35px;
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .purpsecv {
+    width: 670px;
+  }
+
+  .subemiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .subemiv h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .purpkepv {
+    margin: 0 50px;
+    padding: 42px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .purpsecv {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 350px;
+    left: 1%;
+    bottom: -100px;
+  }
+
+  .purpkepv {
+    margin: 0 10px;
+    padding: 42px 0;
+  }
+
+  .subemiv h2 {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    width: 300px;
+  }
+}
+
 /* =================CAROSEL============================== */
 
 .carousel {
   position: relative;
   width: 100%;
-  height: 100px; /* Adjust height as needed */
+  height: 60px; /* Adjust height as needed */
   overflow: hidden;
 }
 
@@ -397,5 +919,3 @@ form a {
 .slide.active {
   opacity: 1;
 }
-
-
